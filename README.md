@@ -60,9 +60,7 @@ Como salvar informações no localStorage.
 
 Organização do código entre HTML, CSS e JS.
 
-📸 Print do projeto (opcional)
 
-(Adicione aqui uma imagem do projeto rodando se quiser)
 
 ✨ Observações
 
