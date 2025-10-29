@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+
+  <!-- 👉 Link do seu CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Pokédex</h1>
+  </header>
+
+  <!-- 🔍 Barra de busca e botões -->
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Buscar Pokémon por nome..." />
+    <button id="searchBtn">Buscar</button>
+    <button id="prevBtn">Anterior</button>
+    <button id="nextBtn">Próximo</button>
+    <button id="showFavoritesBtn">⭐ Favoritos</button>
+  </div>
+
+  <!-- ⚠️ Mensagem de erro -->
+  <p id="errorMessage" style="color: red; display: none;">Pokémon não encontrado!</p>
+
+  <!-- 🧱 Container principal dos Pokémons -->
+  <div id="pokeContainer" class="poke-container"></div>
+
+  <!-- 📜 Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
